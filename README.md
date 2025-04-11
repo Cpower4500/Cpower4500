@@ -1,16 +1,17 @@
-## Hi there 👋
+Start
+    Set correctNumber = random number between 1 and 100
+    Declare userGuess
 
-<!--
-**Cpower4500/Cpower4500** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    Do
+        Display "Enter your guess (1-100):"
+        Input userGuess
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        If userGuess < correctNumber Then
+            Display "Too low. Try again."
+        Else If userGuess > correctNumber Then
+            Display "Too high. Try again."
+        Else
+            Display "Correct! You guessed the number."
+        End If
+    While userGuess != correctNumber
+End
