@@ -1,0 +1,17 @@
+Start  
+    Set correct Num = a random number between 1 and 100  
+    Declare userGuess  
+
+    Do  
+         "Enter your guess (1-100):"  
+        Input userGuess  
+
+        If the user Guess < correct number, then  
+           "Too low. Try again."  
+        Else If user Guess > correct Num Then  
+            Display "Too high. Try again."  
+        Else  
+           "Correct! You guessed the number."  
+        End If  
+    While user Guess != correct Num
+End
